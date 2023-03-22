@@ -9,6 +9,7 @@ public class valid_triangle {
         int side2 = sc.nextInt();
         System.out.print("Enter the third side : ");
         int side3 = sc.nextInt();
+        while(side1!=0&&side2!=0&&side3!=0){
         if((side1+side2+side3)==180){
             System.out.println(" It is valid Triangle");
         }
@@ -16,4 +17,6 @@ public class valid_triangle {
             System.out.println("Not valid triangle");
         }
     }
+        System.out.println("Enter side greater than 0 ");
+}
 }
